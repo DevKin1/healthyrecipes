@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <div className={style.headerContainer}>
-      <img src={headerData[0].logoImage} alt="" />
+      <a href="/"><img src={headerData[0].logoImage} alt="" /></a>
 
       <div
         className={`${style.divider} ${
