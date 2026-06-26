@@ -41,6 +41,11 @@
   cursor: pointer;
   border: none;
 }
+.ctaBtn a{
+  text-decoration: none;
+  color: #fff;
+  background: transparent;
+}
 .forkIcon{
   background: transparent;
   position: absolute;
