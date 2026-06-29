@@ -70,6 +70,7 @@
 .magIcon {
   display: block;
   /* border: 1px solid red; */
+  background: transparent;
 }
 @media(max-width: 600px) {
   .mainSearchWrapper{

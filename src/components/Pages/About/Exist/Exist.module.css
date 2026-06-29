@@ -59,3 +59,31 @@
   }
   
 }
+
+@media (max-width: 900px) {
+   .existFlexContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .existCol1,
+  .existCol2,
+  .existCol3{
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+   .existFlexContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .existCol1,
+  .existCol2,
+  .existCol3{
+    width: 100%;
+    max-width: 100%;
+  }
+}

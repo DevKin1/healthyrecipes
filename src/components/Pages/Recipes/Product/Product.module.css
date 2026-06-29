@@ -44,8 +44,13 @@
 svg{
   background: transparent;
 }
-.servingText,
+.servingText{
+  background: transparent;
+  font-size: 80%;
+  font-weight: 600;
+}
 .cookTime{
+  cursor: pointer;
   background: transparent;
   font-size: 80%;
   font-weight: 600;
@@ -64,6 +69,7 @@ svg{
   transform: scale(1);
   object-fit: cover;
   overflow: hidden;
+  cursor: pointer;
 }
 .productImage img:hover{
   transform: scale(1.05);
@@ -97,5 +103,6 @@ svg{
   background: #163A34;
 }
 .errorMessageForProduct{
-  color: red;
+  color: hsla(0, 100%, 50%, 0.624);
+  font-size: 110%;
 }
